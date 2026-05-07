@@ -8,6 +8,8 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 
+import { Link } from "react-router-dom";
+
 function Navbar() {
 
   const [menuOpen, setMenuOpen] = useState(false);
@@ -68,33 +70,33 @@ function Navbar() {
       >
 
         <li>
-          <a href="/">
+          <Link to="/">
             Home
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a href="/about">
+          <Link to="/about">
             About
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a href="/courses">
+          <Link to="/courses">
             Courses
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a href="/events">
+          <Link to="/events">
             Events
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a href="/contact">
+          <Link to="/contact">
             Contact
-          </a>
+          </Link>
         </li>
 
         {/* ===== MOBILE BUTTON ===== */}
