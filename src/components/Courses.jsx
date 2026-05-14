@@ -11,7 +11,7 @@ function Courses() {
     { title: "Abacus", desc: "From LKG brain development" },
     { title: "Silambam", desc: "Traditional martial art" },
     { title: "Yoga", desc: "Mental & physical wellness" },
-     { title: "Numbers & nucleus", desc: "Improve number skills and logical thinking" }
+     { title: "Numbers & Nucleus", desc: "Improve number skills and logical thinking" }
   ];
 
   return (

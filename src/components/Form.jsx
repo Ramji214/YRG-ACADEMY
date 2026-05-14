@@ -68,8 +68,7 @@ function Form({ course, close }) {
 
       await axios.post(
 
-        "https://script.google.com/macros/s/AKfycbySAJQGu_xWS0Ft7wCjqB-ZiT-pL75p5g10Ihu4A8M-xy-KDBUZgwvn_COfrMRnKP4fCQ/exec",
-
+        "https://script.google.com/macros/s/AKfycbyRQ8rS_fyWK6pWbOA9LW9vaA2hSEHDt-ONxR7zeEp8YL_sIYcAvj3XKcqm2NtCrhWp/exec",
         JSON.stringify(form),
 
         {

@@ -113,6 +113,8 @@ function Footer() {
 
           <a href="#">Abacus</a>
 
+          <a href="#">Numbers & Nucleus</a>
+
         </div>
 
         {/* ===== CONTACT ===== */}
